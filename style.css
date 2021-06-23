@@ -1,7 +1,37 @@
 * {
-  padding: 0px;
-  margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 li {
 	list-style-type: none;
+}
+.top-nav{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: black;
+}
+.top-nav a{
+	float: right;
+	display: block;
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.top-nav a:hover{
+	background-color: yellow;
+	color: black;
+}
+.welcome {
+	margin-top: 2rem;
+  	padding: 3.45rem;
+	text-align: center;
+	font-family: serif;
+	font-size: 7rem;
+	background-color: yellow;
+	width: 100%;
+	height: 100%;
 }
