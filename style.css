@@ -38,3 +38,26 @@ li {
 	height: 100vh;
 */
 }
+.contact{
+	margin: .2rem;
+	padding-top: 2rem;
+	padding: .4rem;
+	background-color: greenyellow;
+}
+.location{
+	margin: .2rem;
+	padding: .4rem;
+	background-color: yellow;
+}
+.history{
+	margin: .2rem;
+	padding-top: 2rem;
+	padding: .4rem;
+	background-color: greenyellow;
+}
+.products{
+	margin: .2rem;
+	padding-top: 2rem;
+	padding: .4rem;
+	background-color: yellow;
+}
