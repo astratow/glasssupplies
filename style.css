@@ -1,6 +1,47 @@
+:root{
+	--background: rgba(0, 214, 170, ,5);
+}
 * {
 	padding: 0px;
 	margin: 0px;
+}
+/*created with kp*/
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+header{
+	/*not used
+	background: var (--background);
+	*/
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+nav{
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	margin-bottom: 1em;
+	margin-left: 1em;
+	}
+nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: black;
+	background: yellow;
 }
 li {
 	list-style-type: none;
@@ -10,13 +51,13 @@ li {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: black;
+	background-color: green;
 }
 .top-nav a{
-	float: right;
-	display: block;
+	float: left;
+	display: ;
 	color: yellow;
-	background-color: black;
+	background-color: green;	
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -28,8 +69,7 @@ li {
 .welcome {
 	margin-top: 2rem;
   	padding: 3.46rem 2rem 2rem 2rem;
-	text-align: center;
-	
+	text-align: center;	
 	font-family: serif;
 	font-size: 7rem;
 	background-color: yellow;
