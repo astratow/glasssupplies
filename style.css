@@ -46,6 +46,17 @@ nav a:hover{
 li {
 	list-style-type: none;
 }
+/* kp*/
+.nav-toggle{
+	display: none;
+}
+.nav-toggle-label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	border: 1px solid red;
+}
 .top-nav{
 	overflow: hidden;
 	position: fixed;
