@@ -18,6 +18,9 @@ header{
 	width: 100%;
 	z-index: 999;
 }
+h1 {
+	scroll-padding: 1ren 0 0 0;
+}
 nav{
 	position: absolute;
 	text-align: left;
