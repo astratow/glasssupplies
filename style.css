@@ -19,7 +19,7 @@ header{
 	z-index: 999;
 }
 h1 {
-	scroll-padding: 1ren 0 0 0;
+	scroll-padding: 1rem 0 0 0;
 }
 nav{
 	position: absolute;
@@ -48,6 +48,10 @@ nav a:hover{
 }
 li {
 	list-style-type: none;
+}
+p{
+	width: clamp(45ch, 50%, 75ch);
+	padding: 1rem;
 }
 /* kp*/
 .nav-toggle{
@@ -86,7 +90,6 @@ li {
 	text-align: center;	
 	font-family: serif;
 	font-size: 3.5em;
-	background-color: yellow;
 /*
 	width: 100%;
 	height: 100vh;
@@ -96,22 +99,27 @@ li {
 	margin: .2rem;
 	padding-top: 2rem;
 	padding: .4rem;
-	background-color: greenyellow;
+	
 }
 .location{
 	margin: .2rem;
 	padding: .4rem;
-	background-color: yellow;
+	
 }
 .history{
 	margin: .2rem;
 	padding-top: 2rem;
 	padding: .4rem;
-	background-color: greenyellow;
 }
 .products{
 	margin: .2rem;
 	padding-top: 2rem;
 	padding: .4rem;
+	
+}
+.green{
+	background-color: greenyellow;
+}
+.yellow{
 	background-color: yellow;
 }
